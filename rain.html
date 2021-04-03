@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rain</title>
+    <style>
+        body{
+            margin: 0px;
+            overflow: hidden;
+        }
+        p {
+            background: linear-gradient(to bottom, darkblue, black);
+            background-size:cover;
+            background-repeat: no-repeat;
+            min-width: 100vw;
+            min-height: 100vh;
+            margin: 0px;
+            position: absolute;
+        }
+        div {
+            animation: fall linear 2s;
+            top: -50px;
+            position: absolute;
+            z-index: 1000;
+        }
+        @keyframes fall {
+            0%{top: -50px;}
+            100%{top: 1500px;}
+        }
+
+    </style>
+</head>
+<body>
+    <p></p>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            setInterval(function(){
+                var x = document.createElement("div");
+                x.style.width = '3px';
+                x.style.height = '6px';
+                x.style.borderRadius = '0 0 50px 50px';
+                x.style.background = 'rgba(200,200,255, 0.8)';
+                x.style.top = '-50px';
+                x.style.animation = 'fall linear 2s';
+                x.style.left = '50%';
+                x.style.position = 'absolute';
+
+                document.body.append(x);
+            }, 500);
+
+            setInterval(function(){
+                var y = document.createElement("div");
+                y.style.width = '3px';
+                y.style.height = '6px';
+                y.style.borderRadius = '0 0 50px 50px';
+                y.style.background = 'rgba(200,200,255, 0.8)';
+                y.style.top = '-50px';
+                y.style.animation = 'fall linear 2s';
+                y.style.left = '40%';
+                y.style.position = 'absolute';
+
+                document.body.append(y);
+            }, 300);
+            setInterval(function(){
+                var v = document.createElement("div");
+                v.style.width = '3px';
+                v.style.height = '6px';
+                v.style.borderRadius = '0 0 50px 50px';
+                v.style.background = 'rgba(200,200,255, 0.8)';
+                v.style.top = '-50px';
+                v.style.animation = 'fall linear 2s';
+                v.style.left = '43%';
+                v.style.position = 'absolute';
+
+                document.body.append(v);
+            }, 150);
+            setInterval(function(){
+                var b = document.createElement("div");
+                b.style.width = '3px';
+                b.style.height = '6px';
+                b.style.borderRadius = '0 0 50px 50px';
+                b.style.background = 'rgba(200,200,255, 0.8)';
+                b.style.top = '-50px';
+                b.style.animation = 'fall linear 2s';
+                b.style.left = '10%';
+                b.style.position = 'absolute';
+
+                document.body.append(b);
+            }, 200);
+            setInterval(function(){
+                var l = document.createElement("div");
+                l.style.width = '3px';
+                l.style.height = '6px';
+                l.style.borderRadius = '0 0 50px 50px';
+                l.style.background = 'rgba(200,200,255, 0.8)';
+                l.style.top = '-50px';
+                l.style.animation = 'fall linear 2s';
+                l.style.left = '17%';
+                l.style.position = 'absolute';
+
+                document.body.append(l);
+            }, 400);
+            setInterval(function(){
+                var k = document.createElement("div");
+                k.style.width = '3px';
+                k.style.height = '6px';
+                k.style.borderRadius = '0 0 50px 50px';
+                k.style.background = 'rgba(200,200,255, 0.8)';
+                k.style.top = '-50px';
+                k.style.animation = 'fall linear 2s';
+                k.style.left = '88%';
+                k.style.position = 'absolute';
+
+                document.body.append(k);
+            }, 600);
+            setInterval(function(){
+                var j = document.createElement("div");
+                j.style.width = '3px';
+                j.style.height = '6px';
+                j.style.borderRadius = '0 0 50px 50px';
+                j.style.background = 'rgba(200,200,255, 0.8)';
+                j.style.top = '-50px';
+                j.style.animation = 'fall linear 2s';
+                j.style.left = '97%';
+                j.style.position = 'absolute';
+
+                document.body.append(j);
+            }, 750);
+            setInterval(function(){
+                var h = document.createElement("div");
+                h.style.width = '3px';
+                h.style.height = '6px';
+                h.style.borderRadius = '0 0 50px 50px';
+                h.style.background = 'rgba(200,200,255, 0.8)';
+                h.style.top = '-50px';
+                h.style.animation = 'fall linear 2s';
+                h.style.left = '64%';
+                h.style.position = 'absolute';
+
+                document.body.append(h);
+            }, 150);
+            setInterval(function(){
+                var g = document.createElement("div");
+                g.style.width = '3px';
+                g.style.height = '6px';
+                g.style.borderRadius = '0 0 50px 50px';
+                g.style.background = 'rgba(200,200,255, 0.8)';
+                g.style.top = '-50px';
+                g.style.animation = 'fall linear 2s';
+                g.style.left = '58%';
+                g.style.position = 'absolute';
+
+                document.body.append(g);
+            }, 250);
+            setInterval(function(){
+                var f = document.createElement("div");
+                f.style.width = '3px';
+                f.style.height = '6px';
+                f.style.borderRadius = '0 0 50px 50px';
+                f.style.background = 'rgba(200,200,255, 0.8)';
+                f.style.top = '-50px';
+                f.style.animation = 'fall linear 2s';
+                f.style.left = '37%';
+                f.style.position = 'absolute';
+
+                document.body.append(f);
+            }, 500);
+            setInterval(function(){
+                var r = document.createElement("div");
+                r.style.width = '3px';
+                r.style.height = '6px';
+                r.style.borderRadius = '0 0 50px 50px';
+                r.style.background = 'rgba(200,200,255, 0.8)';
+                r.style.top = '-50px';
+                r.style.animation = 'fall linear 2s';
+                r.style.left = '27%';
+                r.style.position = 'absolute';
+
+                document.body.append(r);
+            }, 800);
+            setInterval(function(){
+                var e = document.createElement("div");
+                e.style.width = '3px';
+                e.style.height = '6px';
+                e.style.borderRadius = '0 0 50px 50px';
+                e.style.background = 'rgba(200,200,255, 0.8)';
+                e.style.top = '-50px';
+                e.style.animation = 'fall linear 2s';
+                e.style.left = '75%';
+                e.style.position = 'absolute';
+
+                document.body.append(e);
+            }, 800);
+        });
+    </script>
+</body>
+</html>
